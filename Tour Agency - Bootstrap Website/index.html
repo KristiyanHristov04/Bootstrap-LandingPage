@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark">
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Tour Agency <i class="fa-solid fa-plane"></i></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </div>
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="#contact">Newsletter</a>
+                        </div>
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="#FAQ">FAQ</a>
+                        </div>
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="#footer">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container text-center mt-5 pb-5 rounded">
+                <h1 class="pt-3 text-light">Experience The World!</h1>
+                <div class="row justify-content-center g-5 mt-2">
+                    <div class="col-auto">
+                        <div class="card" style="width: 18rem;">
+                            <div class="imageWrapper">
+                                <img src="https://images.unsplash.com/photo-1690642033351-3add4c9c1537?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
+                                    class="card-img-top" alt="image">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">China</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                                    neque
+                                    suscipit quia
+                                    ea accusamus consectetur?</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card" style="width: 18rem;">
+                            <div class="imageWrapper">
+                                <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                    class="card-img-top" alt="image">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">England</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                                    neque
+                                    suscipit quia
+                                    ea accusamus consectetur?</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card" style="width: 18rem;">
+                            <div class="imageWrapper">
+                                <img src="https://images.unsplash.com/photo-1475066392170-59d55d96fe51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                                    class="card-img-top" alt="image">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Norway</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                                    neque
+                                    suscipit quia
+                                    ea accusamus consectetur?</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card" style="width: 18rem;">
+                            <div class="imageWrapper">
+                                <img src="https://images.unsplash.com/photo-1595361316014-d4e3f86aa26d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                                    class="card-img-top" alt="image">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pakistan</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                                    neque
+                                    suscipit quia
+                                    ea accusamus consectetur?</p>
+                                <a href="#" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container-fluid bg-white mt-5 pb-5">
+                <h1 class="text-center pt-3">Subscribe To Our Newsletter</h1>
+                <form>
+                    <div class="container bg-white w-auto">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" id="firstName" class="form-control mb-3" placeholder="John">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" id="lastName" class="form-control form-control mb-3" placeholder="Doe">
+                        <label for="Age" class="form-label">Age</label>
+                        <input type="number" id="Age" class="form-control form-control mb-3" placeholder="18">
+                        <label for="Email" class="form-label">Email</label>
+                        <input type="email" id="Email" class="form-control form-control mb-3"
+                            placeholder="john@example.com">
+                        <input type="button" class="btn btn-primary" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="FAQ" class="p-5">
+            <h1 class="text-white text-center mb-5">Frequently Asked Questions</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Do you make trips outside Europe?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, quo ipsa? Magni quisquam adipisci velit commodi rem ullam impedit accusantium eaque esse similique, fugiat consectetur voluptas natus perspiciatis veritatis nemo, labore asperiores numquam culpa distinctio autem harum. Nemo quae ex illum hic ratione commodi, placeat repellat facilis, quaerat, aut recusandae.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Can I travel with my pet?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius architecto dolorum consequatur quaerat repudiandae quos corporis ullam nisi aliquam distinctio incidunt non quasi delectus ex, sint fuga harum sapiente sit enim? Illum sed, id dolore dolores veritatis, excepturi, vero placeat ullam cum maiores nulla fugiat in ipsum blanditiis minima quia?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can I cancel my trip?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti accusamus modi vitae aut quam rerum officia aliquid numquam unde odit, sit ex. Aspernatur molestiae consequatur sequi quasi. Quia eaque voluptas, in error quod inventore? Nulla ab beatae, ea nobis cum repudiandae voluptates tempora aspernatur possimus fuga delectus quidem impedit!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Do I need to have Covid-19 vaccine?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti accusamus modi vitae aut quam rerum officia aliquid numquam unde odit, sit ex. Aspernatur molestiae consequatur sequi quasi. Quia eaque voluptas, in error quod inventore? Nulla ab beatae, ea nobis cum repudiandae voluptates tempora aspernatur possimus fuga delectus quidem impedit!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="d-flex text-dark bg-white justify-content-between px-5 pt-3">
+            <p>&copy; All copyrights reserved.</p>
+            <ul class="d-flex gap-3 list-unstyled" id="icons">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
